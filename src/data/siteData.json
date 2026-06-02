@@ -1,0 +1,944 @@
+{
+  "brand": {
+    "name": "GayC/DC",
+    "tagline": "The world's first and only all-gay tribute to the music of AC/DC",
+    "logoUrl": "https://paularntz-com.netlify.app/gaycdc-logo.png",
+    "email": "gaycdclola@gmail.com"
+  },
+  "socials": {
+    "facebook": "https://www.facebook.com/gaycdcband/",
+    "instagram": "https://www.instagram.com/officialgaycdc/",
+    "youtube": "https://www.youtube.com/channel/UCAq_8hhOa348BIlbTA7xT_g/playlists?view_as=subscriber",
+    "soundcloud": "https://soundcloud.com/gaycdc"
+  },
+  "hero": {
+    "eyebrow": "2026 MONSTERS OF COCK TOUR",
+    "headline": "High Voltage Queer Rock, Rewired in Hot Pink",
+    "body": "GayC/DC turns AC/DC worship into a sweat-soaked, leather-loud, gloriously gay rock show. The riffs stay dangerous. The party gets louder.",
+    "primaryCta": "See tour dates",
+    "secondaryCta": "Book the band"
+  },
+  "updates": [
+    "We're getting ready for our 2026 Monsters of Cock tour!",
+    "The 2024 SMOKE EP is now available on SoundCloud featuring Smoke, Big Balls, and PNP!",
+    "Redesigned site built around our official logo colors: high voltage hot pink, black, and rock 'n' roll yellow!"
+  ],
+  "bio": "GayC/DC: the worlds first and only all-gay tribute to the music of AC/DC!\n\nFounded in 2013 by Chris Freeman (bass player from iconic queer punk band Pansy Division), the idea for GayC/DC came from bouncing around names for more tribute bands with gay members after hed been playing with the Gay Gays (gay tribute to the Go Gos) for more than a decade. Once the Gay Gays went on hiatus, Freeman moved forward with forming a band that could be as good as AC/DC.\n\nFreeman began by recruiting lightning-speed guitarist, Steve McKnight after meeting him online and sharing similar musical tastes. McKnight has been a part of the LA music scene since the late 80s in Cry Wolf, a melodic hard rock band that made their mark on the Sunset Strip and beyond with several major albums under their belt.\n\nAlso recruited was Karl Rumpf on rhythm guitar, who Freeman had met while on tour with Pansy Division and later worked with in a band/project called Dart. Rumpf was also in the last incarnation of the Gay Gays (it was Karl who came up with the name GayC/DC), along with drummer Brian Welch who Freeman had also met while on tour. Welch had spent years touring with Extreme as their drum tech, so he was a natural fit.\n\nThis four-piece spent months looking for a gay vocalist to no avail. Finally, Freeman asked the others if _he_ should audition. Nervously, he did, the band agreed, and they were offbut now they needed a bassist, so Freeman recruited bass player extraordinaire, Glen Pavan, once again someone Freeman had met while on tour.  In 2026, Nashville-based Paul Arntz has taken over on bass, and in 2025, Portland-based guitarist Topher Ruby took over on rhythm guitar duties.\n\nThe band remains true to the music (working diligently to replicate the actual sound of AC/DC), while playing around with the lyrics and changing pronouns to suit the gay angle. Hence, TNT becomes PNP (a song about the party-n-play status some gay men post in their online sex ads), Bad Boy Boogie becomes Gay Boy Boogie (do you really need to ask?), and Big Balls needed  no changing at all!\n\nTo say the band is off-the-hook live is an understatement, even scoring a pick of the week in LA Weekly for a pre-COVID LA gig. The word of mouth has been intense and they are in-demand for live shows as clubs re-open. There is never a dull moment with all the costume changes and props being trotted out, all in the name of outrageous entertainment. Even those who say they dont like AC/DC end up being fans.\n\nWho can blame them? Go see for yourself!",
+  "upcomingShows": [
+    {
+      "date": "2026-06-18",
+      "displayDate": "June 18, 2026",
+      "title": "GayC/DC returns to Santa Cruz!",
+      "venue": "Moe's Alley",
+      "city": "Santa Cruz",
+      "region": "CA",
+      "time": "Doors 7pm / Show 8pm",
+      "notes": "Blowing away the folks at Moe's Alley.",
+      "ticketUrl": "https://www.ticketweb.com/event/moes-alley-presents-gaycdc-moes-alley-tickets/14480083"
+    },
+    {
+      "date": "2026-06-20",
+      "displayDate": "June 20, 2026",
+      "title": "GayC/DC returns to San Francisco for Pride!",
+      "venue": "DNA Lounge upstairs",
+      "city": "San Francisco",
+      "region": "CA",
+      "time": "Doors 7pm / Show 8pm",
+      "notes": "With Middle-Aged Queers. Pride weekend, upstairs, loud as hell.",
+      "ticketUrl": "https://www.dnalounge.com/calendar/2026/06-20d.html"
+    },
+    {
+      "date": "2026-06-26",
+      "displayDate": "June 26, 2026",
+      "title": "GayC/DC returns to El Corazon in Seattle for Pride!",
+      "venue": "El Corazon",
+      "city": "Seattle",
+      "region": "WA",
+      "time": "Doors 7pm / Show 8pm",
+      "notes": "Kicking off Seattle Pride with Holy Death Temple.",
+      "ticketUrl": ""
+    },
+    {
+      "date": "2026-06-27",
+      "displayDate": "June 27, 2026",
+      "title": "GayC/DC returns to Mississippi Studios in Portland!",
+      "venue": "Mississippi Studios",
+      "city": "Portland",
+      "region": "OR",
+      "time": "Doors 7pm / Show 8pm",
+      "notes": "With J Graves.",
+      "ticketUrl": "https://www.etix.com/ticket/p/71419727/gaycdc-portland-mississippi-studios"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "August 13, 2026",
+      "title": "GayC/DC storms Australia — first stop: Brisbane",
+      "venue": "The Brightside",
+      "city": "Brisbane",
+      "region": "AUS",
+      "time": "Doors 7pm / Show 8pm",
+      "notes": "First ever Australia run. Monsters of Cock Tour crosses the damn ocean.",
+      "ticketUrl": "https://www.tributetouring.com/gaycdc"
+    }
+  ],
+  "pastShows": [
+    {
+      "number": 1,
+      "date": "9/29/2013",
+      "details": "Eagle LA w Queens of the Wild Frontier, Fur Fact'r"
+    },
+    {
+      "number": 2,
+      "date": "10/26/2013",
+      "details": "DiPiazza's, Long Beach, CA w Jan Terri (H), The Slivers"
+    },
+    {
+      "number": 3,
+      "date": "1/26/2014",
+      "details": "Eagle LA w Chew Toys"
+    },
+    {
+      "number": 4,
+      "date": "2/15/2014",
+      "details": "FUBAR"
+    },
+    {
+      "number": 5,
+      "date": "6/22/2014",
+      "details": "La Cita"
+    },
+    {
+      "number": 6,
+      "date": "7/6/2014",
+      "details": "Off Sunset Festival"
+    },
+    {
+      "number": 7,
+      "date": "7/24/2014",
+      "details": "SF Eagle w Clutch the Pearls, zyxornix"
+    },
+    {
+      "number": 8,
+      "date": "1/31/2015",
+      "details": "El Cid w Mac Sabbath (H), No Small Childen"
+    },
+    {
+      "number": 9,
+      "date": "2/19/2015",
+      "details": "Los Globos w Spacecream, Nancy & the She-Dicks"
+    },
+    {
+      "number": 10,
+      "date": "3/29/2015",
+      "details": "Off Sunset Festival w Missing Persons (H)"
+    },
+    {
+      "number": 11,
+      "date": "3/29/2015",
+      "details": "Viper Room w Beasto Blanco (H), Blackpool Republic"
+    },
+    {
+      "number": 12,
+      "date": "4/5/2015",
+      "details": "Easter in the Park, SF"
+    },
+    {
+      "number": 13,
+      "date": "4/11/2015",
+      "details": "Alex's Bar, Long Beach, CA w Mac Sabbath (H)"
+    },
+    {
+      "number": 14,
+      "date": "7/26/2015",
+      "details": "Eagle LA w Happy For You"
+    },
+    {
+      "number": 15,
+      "date": "8/9/2015",
+      "details": "DiPiazza's, Long Beach, CA w The Slivers, Popsicle"
+    },
+    {
+      "number": 16,
+      "date": "8/15/2015",
+      "details": "El Cid w No Small Children, EZ Tiger"
+    },
+    {
+      "number": 17,
+      "date": "8/27/2015",
+      "details": "Viper Room (guest Sebastian Bach) Biters (H), Modern Kicks, Hammered Satin"
+    },
+    {
+      "number": 18,
+      "date": "10/8/2015",
+      "details": "Alex's Bar, Long Beach, CA w Black Sabbitch (H), The 216's"
+    },
+    {
+      "number": 19,
+      "date": "10/10/2015",
+      "details": "North County Pride, Oceanside, CA w Popsicle"
+    },
+    {
+      "number": 20,
+      "date": "10/31/2015",
+      "details": "Viper Room w Sapphic Musk, Gaytheist, Black Lodge"
+    },
+    {
+      "number": 21,
+      "date": "11/8/2015",
+      "details": "Palm Springs Pride w 10,000 Maniacs (H)"
+    },
+    {
+      "number": 22,
+      "date": "12/11/2015",
+      "details": "Five Star Bar w No Small Children (H), Stink Eye Voodoo"
+    },
+    {
+      "number": 23,
+      "date": "12/19/15",
+      "details": "DiPiazza's, Long Beach, CA w Loving Kindness (Xmas show)"
+    },
+    {
+      "number": 24,
+      "date": "1/9/2016",
+      "details": "Soda Bar, San Diego, CA w Black Sabbitch (H), Gunner Gunner"
+    },
+    {
+      "number": 25,
+      "date": "3/9/2016",
+      "details": "La Cita"
+    },
+    {
+      "number": 26,
+      "date": "3/12/2016",
+      "details": "Resident Ryan Rorie Foundation benefit"
+    },
+    {
+      "number": 27,
+      "date": "4/10/2016",
+      "details": "Dragonfly w The Alumni, Six Weeks"
+    },
+    {
+      "number": 28,
+      "date": "4/23/2016",
+      "details": "Soda Bar, San Diego, CA w Black Sabbitch (H), The Great Electric Quest"
+    },
+    {
+      "number": 29,
+      "date": "6/11/2016",
+      "details": "Viper Room, Queer Rock Explosion"
+    },
+    {
+      "number": 30,
+      "date": "6/21/2016",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Love To Orlando"
+    },
+    {
+      "number": 31,
+      "date": "6/23/2016",
+      "details": "Viper Room Highway To Help, Orlando benefit"
+    },
+    {
+      "number": 33,
+      "date": "7/24/2016",
+      "details": "Eagle LA w Club Meds"
+    },
+    {
+      "number": 34,
+      "date": "8/12/2016",
+      "details": "Doll Hut, Anaheim, CA w Tragic Radicals"
+    },
+    {
+      "number": 35,
+      "date": "8/20/2016",
+      "details": "Ventura Pride"
+    },
+    {
+      "number": 36,
+      "date": "9/1/2016",
+      "details": "Five Star Bar w The Dee Dees (H)"
+    },
+    {
+      "number": 37,
+      "date": "9/30/2016",
+      "details": "Precinct - Queen Kong"
+    },
+    {
+      "number": 38,
+      "date": "10/20/2016",
+      "details": "LiveNation/Ticketmaster private event, Hollywood Blvd. rooftop"
+    },
+    {
+      "number": 39,
+      "date": "10/29/2016",
+      "details": "El Cid w Sapphic Musk, Sugar Fly"
+    },
+    {
+      "number": 40,
+      "date": "11/6/2016",
+      "details": "Palm Springs Pride"
+    },
+    {
+      "number": 41,
+      "date": "11/15/2016",
+      "details": "Whisky A Go-Go Ultimate Jam Night - ALZ Benefit"
+    },
+    {
+      "number": 42,
+      "date": "11/18/16",
+      "details": "Doll Hut, Anaheim, CA"
+    },
+    {
+      "number": 43,
+      "date": "1/14/2017",
+      "details": "Fitzgerald's, Huntington Beach, CA w Almost EZ, Strange Friends"
+    },
+    {
+      "number": 44,
+      "date": "3/4/2017",
+      "details": "Soda Bar, San Diego, CA w No Small Children, Geezer"
+    },
+    {
+      "number": 45,
+      "date": "3/25/2017",
+      "details": "Fitzgerald's, Huntington Beach, CA w Frank & Dino Show, Dian Katz"
+    },
+    {
+      "number": 46,
+      "date": "3/31/2017",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Madonnica"
+    },
+    {
+      "number": 47,
+      "date": "6/30/2017",
+      "details": "Alex's Bar, Long Beach, CA w Betty Blowtorch (H), Streetwalkin' Cheetahs"
+    },
+    {
+      "number": 48,
+      "date": "7/15/2017",
+      "details": "The Pack Theater private party"
+    },
+    {
+      "number": 49,
+      "date": "7/22/2017",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA"
+    },
+    {
+      "number": 50,
+      "date": "7/28/2017",
+      "details": "Viper Room w Paradise Kitty (H)"
+    },
+    {
+      "number": 51,
+      "date": "8/4/2017",
+      "details": "The Rose, Pasadena, CA w Groove Kitty (H), Gavin Jones Trio, Ezekiel Gentle"
+    },
+    {
+      "number": 52,
+      "date": "8/26/2017",
+      "details": "DTLA Proud"
+    },
+    {
+      "number": 53,
+      "date": "9/21/2017",
+      "details": "Eagle SF w Fat Bottom Girls, Zbornak"
+    },
+    {
+      "number": 54,
+      "date": "9/29/2017",
+      "details": "Viper Room w Paradise Kitty (H), All Souls, Moonwalker"
+    },
+    {
+      "number": 55,
+      "date": "10/28/2017",
+      "details": "Redwood w Paul Collins solo (H)"
+    },
+    {
+      "number": 56,
+      "date": "11/5/2017",
+      "details": "Palm Springs Pride w Missing Persons (H)"
+    },
+    {
+      "number": 57,
+      "date": "2/2/2018",
+      "details": "Viper Room w Yachtley Crew (H), Tidal Babes"
+    },
+    {
+      "number": 58,
+      "date": "2/20/2018",
+      "details": "Slidebar, Fullerton, CA w WASI (H), Bellhaunts"
+    },
+    {
+      "number": 59,
+      "date": "2/24/2018",
+      "details": "The Hood, Palm Desert, CA w The Hellions, After Lashes"
+    },
+    {
+      "number": 60,
+      "date": "3/2/2018",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Glam Skanks"
+    },
+    {
+      "number": 61,
+      "date": "3/3/2018",
+      "details": "House of Blues-Foundation Room, Anaheim, CA"
+    },
+    {
+      "number": 62,
+      "date": "5/5/2018",
+      "details": "The Hood, Palm Desert, CA w Gutter Candy, Sleazy Cortez"
+    },
+    {
+      "number": 63,
+      "date": "5/8/2018",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Pop Goes Rock"
+    },
+    {
+      "number": 64,
+      "date": "6/5/2018",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Gay Pride"
+    },
+    {
+      "number": 65,
+      "date": "6/8/2018",
+      "details": "Boardner's w Tasty Face"
+    },
+    {
+      "number": 66,
+      "date": "6/17/2018",
+      "details": "Bowery Electric, NYC, NY w The Production"
+    },
+    {
+      "number": 67,
+      "date": "6/18/2018",
+      "details": "Middle East (upstairs), Boston, MA w Fatal Flaw, Bikini Whale"
+    },
+    {
+      "number": 68,
+      "date": "7/7/2018",
+      "details": "Alex's Bar, Long Beach, CA w Miyagi (H)"
+    },
+    {
+      "number": 69,
+      "date": "10/6/2018",
+      "details": "Highland Park Bowl w The Cocks"
+    },
+    {
+      "number": 70,
+      "date": "10/19/2018",
+      "details": "Beauty Bar, Las Vegas Pride weekend w Crimson Riot, Pet Tigers"
+    },
+    {
+      "number": 71,
+      "date": "10/20/2018",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA Turbonegro party w Bad Advice, Barrio Tiger, Flexxe Bronco"
+    },
+    {
+      "number": 72,
+      "date": "10/27/2018",
+      "details": "Merrow, San Diego, CA w Spice Pistols, Brixton '76"
+    },
+    {
+      "number": 73,
+      "date": "11/3/2018",
+      "details": "The Hood, Palm Desert, CA w After Lashes, Daytime Moon"
+    },
+    {
+      "number": 74,
+      "date": "11/4/2018",
+      "details": "Palm Springs Pride"
+    },
+    {
+      "number": 75,
+      "date": "11/10/2018",
+      "details": "Hard Rock Café, Pittsburgh, PA"
+    },
+    {
+      "number": 76,
+      "date": "11/11/2018",
+      "details": "Foundry, Philadelphia, PA"
+    },
+    {
+      "number": 77,
+      "date": "11/17/2018",
+      "details": "Viper Room w Streetwalkin' Cheetahs, Savannah Pope"
+    },
+    {
+      "number": 78,
+      "date": "1/12/2019",
+      "details": "Tiki Bar, Costa Mesa, CA w Full Metal Jacket, Masters of Reality, Ominous"
+    },
+    {
+      "number": 79,
+      "date": "3/1/2019",
+      "details": "El Corazon, Seattle, WA w The Heroine, Dee Dee's, Custom"
+    },
+    {
+      "number": 80,
+      "date": "3/2/2019",
+      "details": "Dante's, Portland, OR w Breaker Breaker"
+    },
+    {
+      "number": 81,
+      "date": "3/7/2019",
+      "details": "Lucky Strike w Victory Kid (H), Gutter Daisies, Bah Ram You"
+    },
+    {
+      "number": 82,
+      "date": "3/8/2019",
+      "details": "Highland Park Bowl w No Small Children"
+    },
+    {
+      "number": 83,
+      "date": "3/25/2019",
+      "details": "Viper Room Sunset Jam - AC/DC tribute"
+    },
+    {
+      "number": 84,
+      "date": "4/21/2019",
+      "details": "Easter in the Park, SF"
+    },
+    {
+      "number": 85,
+      "date": "6/11/2019",
+      "details": "Whisky A Go-Go Ultimate Jam Night - David Z tribute (w Forrest Everett - drums)"
+    },
+    {
+      "number": 86,
+      "date": "6/14/2019",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w No Small Children, Drama Dolls"
+    },
+    {
+      "number": 87,
+      "date": "7/5/2019",
+      "details": "Viper Room w Glam Skanks, Lord F"
+    },
+    {
+      "number": 88,
+      "date": "7/26/2019",
+      "details": "Viper Room w The Heroine, Electric Hounds, Major Tom & The Moondogs"
+    },
+    {
+      "number": 89,
+      "date": "8/23/2019",
+      "details": "Echoplex w Hank Von Hell (H), SPIDERS, Streetwalkin' Cheetahs"
+    },
+    {
+      "number": 90,
+      "date": "8/31/2019",
+      "details": "924 Gilman Street, Berkeley, CA w Alice Bag (H), Maya Songbird, Hammerbombs"
+    },
+    {
+      "number": 91,
+      "date": "12/13/2019",
+      "details": "Gallagher's Pub, Huntington Beach, CA w Spice Pistols, 77RPM, Burning Doors"
+    },
+    {
+      "number": 92,
+      "date": "5/19/2021",
+      "details": "Landers Brewing Co w Motordead"
+    },
+    {
+      "number": 93,
+      "date": "6/27/2021",
+      "details": "Eagle LA"
+    },
+    {
+      "number": 94,
+      "date": "7/9/2021",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Streetwalkin' Cheetahs (special guest on bass, dUg Pinnick!)"
+    },
+    {
+      "number": 95,
+      "date": "8/1/2021",
+      "details": "The Echo w Nerd Halen"
+    },
+    {
+      "number": 96,
+      "date": "9/11/2021",
+      "details": "The Wayfarer, Costa Mesa, CA w Husker Dudes and Tasty Nuggz"
+    },
+    {
+      "number": 97,
+      "date": "10/2/2021",
+      "details": "The Ivy Room, Albany, NY w Middle Aged Queers"
+    },
+    {
+      "number": 98,
+      "date": "10/22/2021",
+      "details": "Alex's Bar, Long Beach, CA w Man On Man (featuring Roddy Bottom)"
+    },
+    {
+      "number": 99,
+      "date": "3/12/2022",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Gilman Blacklist"
+    },
+    {
+      "number": 100,
+      "date": "3/18/2022",
+      "details": "Bottom of the Hill, San Francisco, CA w Middle Aged Queers, Katie Cash"
+    },
+    {
+      "number": 101,
+      "date": "3/19/2022",
+      "details": "El Corazon, Seattle, WA w Always Naked, Buff Muff, Ball Bag"
+    },
+    {
+      "number": 102,
+      "date": "3/29/2022",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Diversity"
+    },
+    {
+      "number": 103,
+      "date": "4/30/2022",
+      "details": "Urbani Cellar, Santa Cruz, CA w Death Dept, Airplane Mode"
+    },
+    {
+      "number": 104,
+      "date": "5/13/2022",
+      "details": "Bossanova Ballroom, Portland, OR w Ursabomb"
+    },
+    {
+      "number": 105,
+      "date": "5/14/2022",
+      "details": "Harlow's, Sacramento, CA w Invincible (Pat Benatar tribute)"
+    },
+    {
+      "number": 106,
+      "date": "5/15/2022",
+      "details": "The Merrow, San Diego, CA w Geezer"
+    },
+    {
+      "number": 107,
+      "date": "6/17/2022",
+      "details": "Rebel Lounge, Phoenix, AZ w Daphne & the Glitches, The Maybe Next Years"
+    },
+    {
+      "number": 108,
+      "date": "6/18/2022",
+      "details": "Bisbee Pride (we got RAINED OUT!)"
+    },
+    {
+      "number": 109,
+      "date": "6/25/2022",
+      "details": "Taverna Costera, Las Vegas, NV w Crimson Riot, Forget Me Nows, Negative Nancys"
+    },
+    {
+      "number": 110,
+      "date": "6/26/2022",
+      "details": "EagleLA"
+    },
+    {
+      "number": 111,
+      "date": "8/26/2022",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Spice Pistols (H)"
+    },
+    {
+      "number": 112,
+      "date": "9/11/2022",
+      "details": "Short Stop, Gutter Glam Festival"
+    },
+    {
+      "number": 113,
+      "date": "10/1/2022",
+      "details": "Audiowyld, Idyllwild, CA w Sticky Dolls"
+    },
+    {
+      "number": 114,
+      "date": "10/3/2022",
+      "details": "Echoplex, w Bonavega (H), Caroline Kingsbury, Glume"
+    },
+    {
+      "number": 115,
+      "date": "10/12/2022",
+      "details": "Whisky A Go-Go, MS Benefit"
+    },
+    {
+      "number": 116,
+      "date": "12/6/2022",
+      "details": "Whisky A Go-Go, Ultimate Jam Night opener"
+    },
+    {
+      "number": 117,
+      "date": "1/6/2023",
+      "details": "The Lodge Room, w Bonavega (H), Dagger Polyester"
+    },
+    {
+      "number": 118,
+      "date": "2/7/2023",
+      "details": "Whisky A Go-Go, Green Jello (H), El Vez, Her Wicked Jones"
+    },
+    {
+      "number": 119,
+      "date": "2/12/2023",
+      "details": "The Echo, 'My Slutty Valentine' w Bonavega, Naked Aggression, more"
+    },
+    {
+      "number": 120,
+      "date": "3/25/2023",
+      "details": "Alex's Bar, Long Beach, CA w The Cineramas (H), Tastee Nuggz"
+    },
+    {
+      "number": 121,
+      "date": "3/26/2023",
+      "details": "Off Sunset Festival , Debby Holiday (H), Tramp For The Lord, Boneyard, Highway 61"
+    },
+    {
+      "number": 122,
+      "date": "4/21/2023",
+      "details": "Live Wire Lounge, Chicago, IL w Turbonigrita, Metal Man"
+    },
+    {
+      "number": 123,
+      "date": "4/22/2023",
+      "details": "Magic Bag, Detroit, MI"
+    },
+    {
+      "number": 124,
+      "date": "4/23/2023",
+      "details": "Rec Room, Buffalo, NY"
+    },
+    {
+      "number": 125,
+      "date": "4/24/2023",
+      "details": "Hard Rock Cafe Pittsburgh w Altered Egos"
+    },
+    {
+      "number": 126,
+      "date": "4/26/2023",
+      "details": "37th & Zen, Norfolk, VA"
+    },
+    {
+      "number": 127,
+      "date": "4/28/2023",
+      "details": "Berlin NYC w Royal Minks, OK King"
+    },
+    {
+      "number": 128,
+      "date": "4/29/2023",
+      "details": "O'Brien's Pub, Boston, MA w Groundlift"
+    },
+    {
+      "number": 129,
+      "date": "8/5/2023",
+      "details": "Brick By Brick, San Diego, CA LGBTQ+ Benefit, w Spice Pistols (H), Disrupted Euphoria, Lady Evil"
+    },
+    {
+      "number": 130,
+      "date": "8/12/2023",
+      "details": "Transplants, Palmdale, CA w Betty Blowtorch (H-XLD), The Cocks, Order 66"
+    },
+    {
+      "number": 131,
+      "date": "9/17/2023",
+      "details": "SF Eagle Leather Pride Week Kickoff"
+    },
+    {
+      "number": 132,
+      "date": "9/24/2023",
+      "details": "EagleLA, w Streetwalkin' Cheetahs (10th Anniversary/Clint Yeager tribute)"
+    },
+    {
+      "number": 133,
+      "date": "9/26/2023",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Power Trip"
+    },
+    {
+      "number": 134,
+      "date": "10/8/2023",
+      "details": "Hard Rock Cafe, Las Vegas, NV w Bonavega"
+    },
+    {
+      "number": 135,
+      "date": "4/26/2024",
+      "details": "Supply & Demand, Long Beach, CA w Streetwalkin' Cheetahs, Ukulele Hiro & Marilyn Jane Burlesque"
+    },
+    {
+      "number": 136,
+      "date": "5/3/2024",
+      "details": "The Ivy Room, Berkeley, CA w Middle-Aged Queers, Tits On A Bull"
+    },
+    {
+      "number": 137,
+      "date": "5/4/2024",
+      "details": "The Wayfarer, Costa Mesa, CA w Mammoth Thunderpower, Golden Ram & War On Betty"
+    },
+    {
+      "number": 138,
+      "date": "5/10/2024",
+      "details": "Wild Buffalo, Bellingham, WA"
+    },
+    {
+      "number": 139,
+      "date": "5/11/2024",
+      "details": "El Corazon, Seattle, WA w Dick Rosetti & Bulk Male, Plagarizer, Jack and the Dull Boy"
+    },
+    {
+      "number": 140,
+      "date": "6/21/2024",
+      "details": "Oriental Theatre, Denver, CO w Pretty In Punk and Miss Steak Diane & the Colfax Queens"
+    },
+    {
+      "number": 141,
+      "date": "6/22/2024",
+      "details": "Vultures, Colorado Springs, CO w Solar Point"
+    },
+    {
+      "number": 142,
+      "date": "6/28/2024",
+      "details": "Rebel Lounge, Phoenix, AZ w the Pubes and the Maybe Next Years"
+    },
+    {
+      "number": 143,
+      "date": "6/29/2024",
+      "details": "Brick By Brick, San Diego, CA w Headbanger's Ball, Into The Void and Made Of Metal"
+    },
+    {
+      "number": 144,
+      "date": "7/26/2024",
+      "details": "Transplants, Palmdale, CA w Betty Blowtorch, Bourbon Saints, Cut-Rate Druggist"
+    },
+    {
+      "number": 145,
+      "date": "7/28/2024",
+      "details": "EagleLA"
+    },
+    {
+      "number": 146,
+      "date": "8/30/2024",
+      "details": "Beat Kitchen, Chicago, IL w Naked Brunch & Sweetie"
+    },
+    {
+      "number": 147,
+      "date": "8/31/2024",
+      "details": "Magic Bag, Detroit, MI"
+    },
+    {
+      "number": 148,
+      "date": "9/1/2024",
+      "details": "Oddfellow Liquor Bar, Cincinnati, OH w Vampire Weekend At Bernie's, The Nothing, V-Twin Sin"
+    },
+    {
+      "number": 149,
+      "date": "9/5/2024",
+      "details": "TV Eye, Brooklyn, NY"
+    },
+    {
+      "number": 150,
+      "date": "9/6/2024",
+      "details": "Broken Goblet, Bensalem, PA"
+    },
+    {
+      "number": 151,
+      "date": "9/7/2024",
+      "details": "Deep Cuts, Boston, MA w Stars Like Ours"
+    },
+    {
+      "number": 152,
+      "date": "10/11/2024",
+      "details": "Maui Sugar Mill Saloon, Tarzana, CA w Margo's Bench & Pinstock"
+    },
+    {
+      "number": 153,
+      "date": "11/26/2024",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Jam for Adam (Johnny Martin - bass, Forrest Everett -drums)"
+    },
+    {
+      "number": 154,
+      "date": "4/18/2025",
+      "details": "Bottom of the Hill, San Francisco, CA w the She Gees & Destroyer"
+    },
+    {
+      "number": 155,
+      "date": "5/3/2025",
+      "details": "Alex's Bar, Long Beach, CA w The Cineramas (H), Skapeche Mode"
+    },
+    {
+      "number": 156,
+      "date": "6/21/2025",
+      "details": "Antelope Valley Pride, Lancaster, CA"
+    },
+    {
+      "number": 157,
+      "date": "7/25/2025",
+      "details": "El Corazon, Seattle, WA w Vera Gogo & Baby & the Nobodies"
+    },
+    {
+      "number": 158,
+      "date": "7/26/2025",
+      "details": "Mississippi Studios, Portland, OR w Baz Moto & Ersabomb"
+    },
+    {
+      "number": 159,
+      "date": "9/18/2025",
+      "details": "X-Ray Arcade, Cudahy, WI w Vlntyn"
+    },
+    {
+      "number": 160,
+      "date": "9/20/2025",
+      "details": "Live Wire Lounge, Chicago, IL"
+    },
+    {
+      "number": 161,
+      "date": "9/21/2025",
+      "details": "Cosmo Joe's Atomic Lounge, Dayton, OH w Green Fuzz, Red Cap Society, Vampire Weekend At Bernie's"
+    },
+    {
+      "number": 162,
+      "date": "9/25/2025",
+      "details": "O'Brien's Pub, Boston, MA w Stars Like Ours"
+    },
+    {
+      "number": 163,
+      "date": "9/26/2025",
+      "details": "Broken Goblet, Bensalem, PA"
+    },
+    {
+      "number": 164,
+      "date": "9/27/2025",
+      "details": "Williams Center, Rutherford, NJ"
+    },
+    {
+      "number": 165,
+      "date": "10/18/2025",
+      "details": "The Holding Company, Ocean Beach, CA w Super Cool!, Jane's Addicted"
+    },
+    {
+      "number": 166,
+      "date": "10/24/2025",
+      "details": "Rebel Lounge, Phoenix, AZ w Daphne & the Glitches, Grace Otto"
+    },
+    {
+      "number": 167,
+      "date": "10/25/2025",
+      "details": "The Annex @ Giant Rock Meeting Room, Yucca Valley, CA w Hot Patooties"
+    },
+    {
+      "number": 168,
+      "date": "10/28/2025",
+      "details": "Whisky A Go-Go, Ultimate Jam Night - Halloween"
+    },
+    {
+      "number": 169,
+      "date": "2/15/2026",
+      "details": "Escondite, DTLA, My Slutty Valentine festival"
+    },
+    {
+      "number": 170,
+      "date": "5/3/2026",
+      "details": "Off Sunset Festival, Prince Again (H), Bitch Kiss, Boneyard, Erik Core, Thing of Twins"
+    }
+  ],
+  "recordings": [
+    {
+      "title": "Smoke EP",
+      "year": "2024",
+      "tracks": [
+        "Smoke",
+        "Big Balls",
+        "PNP"
+      ],
+      "url": "https://soundcloud.com/gaycdc/sets/smoke-ep",
+      "cover": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/GAYCDC_EP_Cover_Final_Web.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:800,cg:true"
+    }
+  ]
+}
