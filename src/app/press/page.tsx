@@ -5,27 +5,28 @@ export const dynamic = 'force-dynamic';
 
 export default async function Page() {
   const data = await getSiteData();
+  const press = data.press;
+
   return (
     <>
       <main className="section">
         <p className="eyebrow">Press</p>
         <h1>Press</h1>
-        <div className="pink-panel section">
-          <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: 18, lineHeight: 1.6 }}>
-            This section is currently being updated as part of the brand redesign. We are preparing our official merch store, live tour videos, press clippings, and performance photo gallery.
+        {press?.intro && (
+          <p className="lede" style={{ marginBottom: 40 }}>
+            {press.intro}
           </p>
-          <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: 18, marginTop: 20 }}>
-            In the meantime, follow our official channels to stay in the loop!
-          </p>
-          <div className="actions" style={{ marginTop: 30 }}>
-            <a className="button" href={data.socials.instagram} target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-            <a className="button ghost" href={data.socials.youtube} target="_blank" rel="noopener noreferrer">
-              YouTube Channel
-            </a>
-          </div>
-        </div>
+        )}
+        <ul className="press-list">
+          {(press?.items ?? []).map((item) => (
+            <li key={item.url}>
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="press-link">
+                {item.title}
+                <span className="press-dl">Download PDF</span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </main>
       <Footer data={data} />
     </>

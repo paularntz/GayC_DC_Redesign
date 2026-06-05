@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "clean": "rm -rf .next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "tsx scripts/seed-turso.ts"
+    "seed": "tsx scripts/seed-turso.ts",
+    "import:scrapes": "tsx scripts/import-scrapes.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.15.15",

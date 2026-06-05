@@ -5,26 +5,38 @@ export const dynamic = 'force-dynamic';
 
 export default async function Page() {
   const data = await getSiteData();
+  const videos = data.videos ?? [];
+
   return (
     <>
       <main className="section">
         <p className="eyebrow">Videos</p>
-        <h1>Videos</h1>
-        <div className="pink-panel section">
-          <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: 18, lineHeight: 1.6 }}>
-            This section is currently being updated as part of the brand redesign. We are preparing our official merch store, live tour videos, press clippings, and performance photo gallery.
-          </p>
-          <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: 18, marginTop: 20 }}>
-            In the meantime, follow our official channels to stay in the loop!
-          </p>
-          <div className="actions" style={{ marginTop: 30 }}>
-            <a className="button" href={data.socials.instagram} target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-            <a className="button ghost" href={data.socials.youtube} target="_blank" rel="noopener noreferrer">
-              YouTube Channel
-            </a>
-          </div>
+        <h1>Official Videos</h1>
+        <p className="lede" style={{ marginBottom: 40 }}>
+          See more on our{' '}
+          <a href={data.socials.youtube} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--hot)' }}>
+            YouTube channel
+          </a>
+          .
+        </p>
+        <div className="video-list">
+          {videos.map((video) => (
+            <article className="video-card pink-panel" key={video.youtubeId}>
+              <div className="video-embed">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.youtubeId}`}
+                  title={`GayC/DC — ${video.title}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <div className="video-copy">
+                <span className="date-pill">{video.label}</span>
+                <h2>{video.title}</h2>
+                <p>{video.description}</p>
+              </div>
+            </article>
+          ))}
         </div>
       </main>
       <Footer data={data} />

@@ -16,7 +16,6 @@ export function Nav() {
     <header className="nav">
       <Link className="brand" href="/">
         <img src="https://paularntz-com.netlify.app/gaycdc-logo.png" alt="GayC/DC logo" />
-        <span>GayC/DC</span>
       </Link>
       <nav>
         {nav.map(([label, href]) => (
