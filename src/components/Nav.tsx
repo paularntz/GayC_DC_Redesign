@@ -9,6 +9,7 @@ const nav = [
   ['Cart', '/cart'],
   ['Press', '/press'],
   ['Photos', '/photo-gallery'],
+  ['Game', '/game'],
   ['Contact', '/contact'],
 ];
 
