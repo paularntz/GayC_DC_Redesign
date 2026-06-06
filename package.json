@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "seed": "tsx scripts/seed-turso.ts",
+    "sync:content": "tsx scripts/seed-turso.ts",
     "import:scrapes": "tsx scripts/import-scrapes.ts"
   },
   "dependencies": {

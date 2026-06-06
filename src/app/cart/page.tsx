@@ -1,16 +1,15 @@
 import { Footer } from '@/components/Footer';
 import { getSiteData } from '@/lib/data';
-import { MerchandiseStore } from '@/components/MerchandiseStore';
+import { CartClient } from '@/components/CartClient';
 
 export const dynamic = 'force-dynamic';
 
 export default async function Page() {
   const data = await getSiteData();
-  const merch = data.merchandise;
 
   return (
     <>
-      <MerchandiseStore merch={merch} />
+      <CartClient siteData={data} />
       <Footer data={data} />
     </>
   );

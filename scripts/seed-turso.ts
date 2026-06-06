@@ -2,6 +2,24 @@ import { createClient } from '@libsql/client';
 import * as fs from 'fs';
 import * as path from 'path';
 
+// Load .env.local (and .env) so the script works when run via `npm run seed`
+// without needing to export env vars manually.
+for (const file of ['.env', '.env.local']) {
+  const envPath = path.join(__dirname, '..', file);
+  if (fs.existsSync(envPath)) {
+    const lines = fs.readFileSync(envPath, 'utf-8').split('\n');
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+      const eq = trimmed.indexOf('=');
+      if (eq === -1) continue;
+      const key = trimmed.slice(0, eq).trim();
+      const val = trimmed.slice(eq + 1).trim();
+      if (!(key in process.env)) process.env[key] = val;
+    }
+  }
+}
+
 const siteDataPath = path.join(__dirname, '../src/data/siteData.json');
 const siteData = JSON.parse(fs.readFileSync(siteDataPath, 'utf-8'));
 
@@ -9,7 +27,11 @@ const url = process.env.TURSO_DATABASE_URL;
 const authToken = process.env.TURSO_AUTH_TOKEN;
 
 if (!url || !authToken) {
-  throw new Error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN environment variables are required.');
+  console.warn(
+    'Skipping Turso seed: TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are not set. ' +
+      'Production will use stale database content or fall back to siteData.json.'
+  );
+  process.exit(0);
 }
 
 async function main() {
@@ -41,15 +63,40 @@ async function main() {
       notes text,
       ticket_url text,
       is_past integer not null default 0
+    )`,
+    `create table if not exists merch_orders (
+      id integer primary key autoincrement,
+      paypal_order_id text not null,
+      paypal_payment_id text,
+      customer_name text not null,
+      customer_email text not null,
+      shipping_address text,
+      items_summary text not null,
+      subtotal real not null,
+      shipping real not null,
+      total real not null,
+      status text not null,
+      created_at text not null
     )`
   ], 'write');
 
   console.log('Seeding site_content table...');
+  const payload = JSON.stringify(siteData);
   await db.execute({
     sql: `insert into site_content (slug, payload, updated_at) 
           values (?, ?, datetime('now')) 
           on conflict(slug) do update set payload = excluded.payload, updated_at = datetime('now')`,
-    args: ['main', JSON.stringify(siteData)],
+    args: ['main', payload],
+  });
+
+  console.log('Site content synced:', {
+    photos: siteData.photos?.items?.length ?? 0,
+    videos: Array.isArray(siteData.videos) ? siteData.videos.length : 0,
+    press: siteData.press?.items?.length ?? 0,
+    merchandiseCategories: siteData.merchandise?.categories?.length ?? 0,
+    upcomingShows: siteData.upcomingShows?.length ?? 0,
+    pastShows: siteData.pastShows?.length ?? 0,
+    payloadBytes: Buffer.byteLength(payload, 'utf8'),
   });
 
   console.log('Seeding shows table...');

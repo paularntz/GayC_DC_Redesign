@@ -53,3 +53,55 @@ export async function saveContactSubmission(input: { name: string; email: string
     return { stored: false };
   }
 }
+
+export async function saveMerchOrder(input: {
+  paypalOrderId: string;
+  paypalPaymentId?: string;
+  customerName: string;
+  customerEmail: string;
+  shippingAddress?: string;
+  itemsSummary: string;
+  subtotal: number;
+  shipping: number;
+  total: number;
+  status: string;
+}) {
+  const db = getDb();
+  if (!db) {
+    console.log('Skipping merch order save, db not configured.', input);
+    return { stored: true };
+  }
+  try {
+    await db.execute({
+      sql: `insert into merch_orders (
+        paypal_order_id, 
+        paypal_payment_id, 
+        customer_name, 
+        customer_email, 
+        shipping_address, 
+        items_summary, 
+        subtotal, 
+        shipping, 
+        total, 
+        status, 
+        created_at
+      ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`,
+      args: [
+        input.paypalOrderId,
+        input.paypalPaymentId || null,
+        input.customerName,
+        input.customerEmail,
+        input.shippingAddress || null,
+        input.itemsSummary,
+        input.subtotal,
+        input.shipping,
+        input.total,
+        input.status,
+      ],
+    });
+    return { stored: true };
+  } catch (err) {
+    console.error('Failed to save merch order:', err);
+    return { stored: false };
+  }
+}
