@@ -2,7 +2,7 @@
   "brand": {
     "name": "GayC/DC",
     "tagline": "The world's first and only all-gay tribute to the music of AC/DC",
-    "logoUrl": "https://paularntz-com.netlify.app/gaycdc-logo.png",
+    "logoUrl": "/images/logos/gaycdc-logo.png",
     "email": "gaycdclola@gmail.com"
   },
   "socials": {
@@ -23,7 +23,7 @@
     "The 2024 SMOKE EP is now available on SoundCloud featuring Smoke, Big Balls, and PNP!",
     "Redesigned site built around our official logo colors: high voltage hot pink, black, and rock 'n' roll yellow!"
   ],
-  "bio": "GayC/DC: the world’s first and only all-gay tribute to the music of AC/DC!\n\nFounded in 2013 by Chris Freeman (bass player from iconic queer punk band Pansy Division), the idea for GayC/DC came from bouncing around names for more tribute bands with gay members after he’d been playing with the Gay Gay’s (gay tribute to the Go Go’s) for more than a decade. Once the Gay Gay’s went on hiatus, Freeman moved forward with forming a band that could be as good as AC/DC.\n\nFreeman began by recruiting lightning-speed guitarist, Steve McKnight after meeting him online and sharing similar musical tastes. McKnight has been a part of the LA music scene since the late ‘80s in Cry Wolf, a melodic hard rock band that made their mark on the Sunset Strip and beyond with several major albums under their belt.\n\nAlso recruited was Karl Rumpf on rhythm guitar, who Freeman had met while on tour with Pansy Division and later worked with in a band/project called Dart. Rumpf was also in the last incarnation of the Gay Gay’s (it was Karl who came up with the name GayC/DC), along with drummer Brian Welch who Freeman had also met while on tour. Welch had spent years touring with Extreme as their drum tech, so he was a natural fit.\n\nThis four-piece spent months looking for a gay vocalist to no avail. Finally, Freeman asked the others if _he_ should audition. Nervously, he did, the band agreed, and they were off—but now they needed a bassist, so Freeman recruited bass player extraordinaire, Glen Pavan, once again someone Freeman had met while on tour.  In 2026, Nashville-based Paul Arntz has taken over on bass, and in 2025, Portland-based guitarist Topher Ruby took over on rhythm guitar duties.\n\nThe band remains true to the music (working diligently to replicate the actual sound of AC/DC), while playing around with the lyrics and changing pronouns to suit the gay angle. Hence, TNT becomes PNP (a song about the “party-n-play” status some gay men post in their online sex ads), Bad Boy Boogie becomes Gay Boy Boogie (do you really need to ask?), and Big Balls needed … no changing at all!\n\nTo say the band is off-the-hook live is an understatement, even scoring a “pick of the week” in LA Weekly for a pre-COVID LA gig. The word of mouth has been intense and they are in-demand for live shows as clubs re-open. There is never a dull moment with all the costume changes and props being trotted out, all in the name of outrageous entertainment. Even those who say they don’t like AC/DC end up being fans.\n\nWho can blame them? Go see for yourself!",
+  "bio": "GayC/DC: the world\u2019s first and only all-gay tribute to the music of AC/DC!\n\nFounded in 2013 by Chris Freeman (bass player from iconic queer punk band Pansy Division), the idea for GayC/DC came from bouncing around names for more tribute bands with gay members after he\u2019d been playing with the Gay Gay\u2019s (gay tribute to the Go Go\u2019s) for more than a decade. Once the Gay Gay\u2019s went on hiatus, Freeman moved forward with forming a band that could be as good as AC/DC.\n\nFreeman began by recruiting lightning-speed guitarist, Steve McKnight after meeting him online and sharing similar musical tastes. McKnight has been a part of the LA music scene since the late \u201880s in Cry Wolf, a melodic hard rock band that made their mark on the Sunset Strip and beyond with several major albums under their belt.\n\nAlso recruited was Karl Rumpf on rhythm guitar, who Freeman had met while on tour with Pansy Division and later worked with in a band/project called Dart. Rumpf was also in the last incarnation of the Gay Gay\u2019s (it was Karl who came up with the name GayC/DC), along with drummer Brian Welch who Freeman had also met while on tour. Welch had spent years touring with Extreme as their drum tech, so he was a natural fit.\n\nThis four-piece spent months looking for a gay vocalist to no avail. Finally, Freeman asked the others if _he_ should audition. Nervously, he did, the band agreed, and they were off\u2014but now they needed a bassist, so Freeman recruited bass player extraordinaire, Glen Pavan, once again someone Freeman had met while on tour.  In 2026, Nashville-based Paul Arntz has taken over on bass, and in 2025, Portland-based guitarist Topher Ruby took over on rhythm guitar duties.\n\nThe band remains true to the music (working diligently to replicate the actual sound of AC/DC), while playing around with the lyrics and changing pronouns to suit the gay angle. Hence, TNT becomes PNP (a song about the \u201cparty-n-play\u201d status some gay men post in their online sex ads), Bad Boy Boogie becomes Gay Boy Boogie (do you really need to ask?), and Big Balls needed \u2026 no changing at all!\n\nTo say the band is off-the-hook live is an understatement, even scoring a \u201cpick of the week\u201d in LA Weekly for a pre-COVID LA gig. The word of mouth has been intense and they are in-demand for live shows as clubs re-open. There is never a dull moment with all the costume changes and props being trotted out, all in the name of outrageous entertainment. Even those who say they don\u2019t like AC/DC end up being fans.\n\nWho can blame them? Go see for yourself!",
   "upcomingShows": [
     {
       "date": "2026-06-18",
@@ -72,7 +72,7 @@
     {
       "date": "2026-08-13",
       "displayDate": "August 13, 2026",
-      "title": "GayC/DC storms Australia — first stop: Brisbane",
+      "title": "GayC/DC storms Australia \u2014 first stop: Brisbane",
       "venue": "The Brightside",
       "city": "Brisbane",
       "region": "AUS",
@@ -83,7 +83,7 @@
     {
       "date": "2026-08-14",
       "displayDate": "August 14, 2026",
-      "title": "GayC/DC storms Australia — first stop: Gold Coast",
+      "title": "GayC/DC storms Australia \u2014 first stop: Gold Coast",
       "venue": "Mo's Desert Clubhouse",
       "city": "Gold Coast",
       "region": "AUS",
@@ -94,7 +94,7 @@
     {
       "date": "2026-08-15",
       "displayDate": "August 15, 2026",
-      "title": "GayC/DC storms Australia — first stop: Sydney",
+      "title": "GayC/DC storms Australia \u2014 first stop: Sydney",
       "venue": "Metro Social",
       "city": "Sydney",
       "region": "AUS",
@@ -105,7 +105,7 @@
     {
       "date": "2026-08-16",
       "displayDate": "August 16, 2026",
-      "title": "GayC/DC storms Australia — first stop: Coffs Harbour",
+      "title": "GayC/DC storms Australia \u2014 first stop: Coffs Harbour",
       "venue": "Hoey Moey",
       "city": "Coffs Harbour",
       "region": "AUS",
@@ -116,7 +116,7 @@
     {
       "date": "2026-08-19",
       "displayDate": "August 19, 2026",
-      "title": "GayC/DC storms Australia — first stop: Adelaide",
+      "title": "GayC/DC storms Australia \u2014 first stop: Adelaide",
       "venue": "Ed Castle",
       "city": "Adelaide",
       "region": "AUS",
@@ -127,7 +127,7 @@
     {
       "date": "2026-08-20",
       "displayDate": "August 20, 2026",
-      "title": "GayC/DC storms Australia — first stop: Perth",
+      "title": "GayC/DC storms Australia \u2014 first stop: Perth",
       "venue": "Milkbar",
       "city": "Perth",
       "region": "AUS",
@@ -138,7 +138,7 @@
     {
       "date": "2026-08-21",
       "displayDate": "August 21, 2026",
-      "title": "GayC/DC storms Australia — first stop: Melbourne",
+      "title": "GayC/DC storms Australia \u2014 first stop: Melbourne",
       "venue": "The Prince",
       "city": "Melbourne",
       "region": "AUS",
@@ -149,7 +149,7 @@
     {
       "date": "2026-08-22",
       "displayDate": "August 22, 2026",
-      "title": "GayC/DC storms Australia — first stop: Ballarat",
+      "title": "GayC/DC storms Australia \u2014 first stop: Ballarat",
       "venue": "Volta",
       "city": "Ballarat",
       "region": "AUS",
@@ -527,7 +527,7 @@
     {
       "number": 75,
       "date": "11/10/2018",
-      "details": "Hard Rock Café, Pittsburgh, PA"
+      "details": "Hard Rock Caf\u00e9, Pittsburgh, PA"
     },
     {
       "number": 76,
@@ -1019,7 +1019,7 @@
     }
   ],
   "bioImage": {
-    "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/026RET02.jpg/:/cr=t:0%25,l:5.66%25,w:88.68%25,h:100%25/rs=w:600,h:450,cg:true",
+    "url": "/images/gallery/026RET02.jpg",
     "credit": "Photo by Alex Solca"
   },
   "contact": {
@@ -1063,7 +1063,7 @@
         "url": "https://img1.wsimg.com/blobby/go/0f6f3bde-e760-40b5-b66a-08d8f32b8882/downloads/KERRANG!%20GayCDC.pdf?ver=1779424632449"
       },
       {
-        "title": "GayC:DC Is Literally The Gayest AC:DC Cover Band Out There – \"Let There Be Cock!\"",
+        "title": "GayC:DC Is Literally The Gayest AC:DC Cover Band Out There \u2013 \"Let There Be Cock!\"",
         "url": "https://img1.wsimg.com/blobby/go/0f6f3bde-e760-40b5-b66a-08d8f32b8882/downloads/GayC%3ADC%20Is%20Literally%20The%20Gayest%20AC%3ADC%20Cover%20Ba.pdf?ver=1779424632449"
       },
       {
@@ -1078,57 +1078,57 @@
     "photographerUrl": "https://alexsolca.zenfolio.com",
     "items": [
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/008RET.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/008RET.jpg",
         "alt": "Five men in bold, eclectic costumes posing against a blue background.",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/074RET.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/074RET.jpg",
         "alt": "Man in pink suit and red hat with a black feather boa smiles against blue background.",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/dx0a0768.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/dx0a0768.jpg",
         "alt": "Performer in devil horns reads from a Holy Bible on stage, holding a microphone.",
-        "caption": "Chris Freeman, Viper Room, 9/29/2017 — Photo by Jack Lue"
+        "caption": "Chris Freeman, Viper Room, 9/29/2017 \u2014 Photo by Jack Lue"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/GayCDC%20Steve4.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/GayCDC Steve4.jpg",
         "alt": "Energetic musician with mohawk playing electric guitar in bold outfit.",
         "caption": "Photo by Alex Solca, 3/15/2025"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/dx0a6432.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/dx0a6432.jpg",
         "alt": "Energetic guitarist performing passionately on stage with vibrant blue lighting.",
-        "caption": "Steve McKnight, Viper Room, 7/28/2017 — photo by Jack Lue"
+        "caption": "Steve McKnight, Viper Room, 7/28/2017 \u2014 photo by Jack Lue"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/090RET.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/090RET.jpg",
         "alt": "GayC/DC band photo",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/me2.jpg/:/rs=w:600,cg:true,m",
+        "url": "/images/gallery/me2.jpg",
         "alt": "GayC/DC band member",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/060RET.jpg/:/cr=t:13.08%25,l:0%25,w:86.92%25,h:86.92%25/rs=w:600,cg:true,m",
+        "url": "/images/gallery/060RET.jpg",
         "alt": "GayC/DC band photo",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/101RET.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+        "url": "/images/gallery/101RET.jpg",
         "alt": "GayC/DC band photo",
         "caption": "Photo by Alex Solca, 3/15/2026"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/Screenshot%202024-12-13%20at%203.18.59%E2%80%AFPM.png/:/rs=w:600,cg:true,m",
+        "url": "/images/gallery/Screenshot 2024-12-13 at 3.18.59 PM.png",
         "alt": "GayC/DC performance screenshot",
         "caption": "December 2024"
       },
       {
-        "url": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/Screenshot%202024-08-01%20at%2010.51.32%E2%80%AFPM.png/:/rs=w:600,cg:true,m",
+        "url": "/images/gallery/Screenshot 2024-08-01 at 10.51.32 PM.png",
         "alt": "GayC/DC performance screenshot",
         "caption": "August 2024"
       }
@@ -1146,19 +1146,19 @@
             "name": "Basic logos",
             "price": "$30",
             "description": "Our bolt/boa icon on the front and name logo on the back. We also have a single-sided version with the logo above the icon on the front.",
-            "imageUrl": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/Screen%20Shot%202019-08-09%20at%2010.09.54%20PM.png/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270"
+            "imageUrl": "/images/merchandise/Screen Shot 2019-08-09 at 10.09.54 PM.png"
           },
           {
             "name": "Neon logo",
             "price": "$30",
             "description": "Our logo in pink and red neon with LA/CA on the back",
-            "imageUrl": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/Screen%20Shot%202022-04-28%20at%202.29.50%20AM.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:360,cg:true"
+            "imageUrl": "/images/merchandise/Screen Shot 2022-04-28 at 2.29.50 AM.png"
           },
           {
             "name": "10th anniversary logo",
             "price": "$30",
             "description": "Our 10th anniversary logo with slogan on the back.",
-            "imageUrl": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/Screen%20Shot%202023-10-15%20at%2011.10.33%20PM.png/:/cr=t:0%25,l:1.51%25,w:96.98%25,h:96.98%25/rs=w:360,cg:true,m"
+            "imageUrl": "/images/merchandise/Screen Shot 2023-10-15 at 11.10.33 PM.png"
           }
         ]
       },
@@ -1169,17 +1169,20 @@
           {
             "name": "GayC/DC logo",
             "price": "2 for $1",
-            "description": "Our basic logo"
+            "description": "Our basic logo",
+            "imageUrl": "/images/merchandise/blob-26f357f.png"
           },
           {
             "name": "Icon image",
             "price": "2 for $1",
-            "description": "Our bolt with boa design"
+            "description": "Our bolt with boa design",
+            "imageUrl": "/images/merchandise/IMG_4276.JPG"
           },
           {
             "name": "Dirty Dudes Done Dirt Cheap",
             "price": "2 for $1",
-            "description": "Our altered version of the iconic album cover"
+            "description": "Our altered version of the iconic album cover",
+            "imageUrl": "/images/merchandise/IMG_2430-1 (dragged) 2.jpg"
           }
         ]
       },
@@ -1190,12 +1193,14 @@
           {
             "name": "Magnets",
             "price": "2 for $1",
-            "description": "A popular way to impress your friends"
+            "description": "A popular way to impress your friends",
+            "imageUrl": "/images/merchandise/blob-9a26819.png"
           },
           {
             "name": "Guitar picks",
             "price": "2 for $1",
-            "description": "Who cares if you can't actually play guitar? You need these!"
+            "description": "Who cares if you can't actually play guitar? You need these!",
+            "imageUrl": "/images/merchandise/GayC-DC gtr picks.jpg"
           }
         ]
       },
@@ -1206,12 +1211,14 @@
           {
             "name": "Patches",
             "price": "$5 each",
-            "description": "Stitch 'em to that ol' denim vest!"
+            "description": "Stitch 'em to that ol' denim vest!",
+            "imageUrl": "/images/merchandise/blob-a6d655e.png"
           },
           {
             "name": "Buttons",
             "price": "$1 each",
-            "description": "These are perfect for any jacket, cap or guitar strap!"
+            "description": "These are perfect for any jacket, cap or guitar strap!",
+            "imageUrl": "/images/merchandise/Buttons!.jpg"
           }
         ]
       }
