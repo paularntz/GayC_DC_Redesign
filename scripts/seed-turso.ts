@@ -77,7 +77,18 @@ async function main() {
       total real not null,
       status text not null,
       created_at text not null
-    )`
+    )`,
+    `create table if not exists setlist_pitch_settings (
+      setlist_slug text not null,
+      track_key text not null,
+      pitch_shift integer not null default 0 check (pitch_shift between -1 and 1),
+      pitch_cents integer not null default 0 check (pitch_cents between -100 and 100),
+      volume real not null default 1 check (volume between 0 and 1),
+      updated_at text not null default (datetime('now')),
+      primary key (setlist_slug, track_key)
+    )`,
+    `create index if not exists idx_setlist_pitch_settings_setlist
+      on setlist_pitch_settings(setlist_slug, updated_at desc)`
   ], 'write');
 
   console.log('Seeding site_content table...');

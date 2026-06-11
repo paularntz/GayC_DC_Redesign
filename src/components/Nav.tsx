@@ -5,6 +5,7 @@ const nav = [
   ['Bio', '/bio'],
   ['Recordings', '/recordings'],
   ['Videos', '/videos'],
+  ['Setlists', '/setlists'],
   ['Merch', '/merchandise'],
   ['Cart', '/cart'],
   ['Press', '/press'],
