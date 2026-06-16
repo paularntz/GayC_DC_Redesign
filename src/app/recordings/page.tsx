@@ -43,7 +43,7 @@ export default async function RecordingsPage() {
 
         {tracks.length > 0 && (
           <>
-            <h2 style={{ marginTop: 60 }}>More on SoundCloud</h2>
+            <h2 style={{ marginTop: 60 }}>More Recordings</h2>
             <p className="lede" style={{ marginBottom: 30 }}>
               Go to SoundCloud to check out our versions of some of your favorite AC/DC songs.
             </p>
@@ -53,7 +53,7 @@ export default async function RecordingsPage() {
                   <h3>{track.title}</h3>
                   <p className="notes">{track.description}</p>
                   <a className="button small" href={track.url} target="_blank" rel="noopener noreferrer" style={{ marginTop: 16 }}>
-                    Listen on SoundCloud
+                    {track.url.startsWith('/') ? 'Listen Now' : 'Listen on SoundCloud'}
                   </a>
                 </article>
               ))}

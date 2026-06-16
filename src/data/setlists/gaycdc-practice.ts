@@ -103,9 +103,8 @@ export const gaycdcPracticeSetlist: Setlist = {
     },
     {
       code: 'CUM',
-      title: 'Walk All Over You',
-      audioUrl:
-        'https://www.dropbox.com/scl/fi/5sa063totwu6xhe36ocfh/Cum-All-Over-You.mp3?rlkey=yb8vxnmhk52pj7g5ih1no2otj&dl=0&raw=1',
+      title: 'Walk All Over Your Face',
+      audioUrl: '/WalkAllOverYourFace.mp3',
     },
     {
       code: 'TOUCH',
