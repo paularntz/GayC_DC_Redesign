@@ -24,7 +24,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${setlist.title} | GayC/DC Setlists`,
+    title: `${setlist.title} | GayC/DC Sessions`,
     description: setlist.description,
   };
 }

@@ -10,62 +10,34 @@ export default async function RecordingsPage() {
   return (
     <>
       <main className="section">
-        <p className="eyebrow">Releases</p>
+        <p className="eyebrow">Audio</p>
         <h1>Recordings</h1>
+        
+        <p className="lede" style={{ marginBottom: 40, textAlign: 'left', marginLeft: 0 }}>
+          Check out our versions of some of your favorite AC/DC songs. 
+          Listen to individual tracks below or head over to SoundCloud for the full experience.
+        </p>
 
-        <div className="cards" style={{ marginTop: 30 }}>
-          {data.recordings.map((r) => (
-            <article
-              className="record-card"
-              key={r.title}
-              style={{ display: 'grid', gridTemplateColumns: 'minmax(200px, 300px) 1fr', gap: 30, alignItems: 'center' }}
-            >
-              <img
-                src={r.cover}
-                alt={`${r.title} Cover`}
-                style={{ width: '100%', borderRadius: 12, border: '2px solid var(--pink)', boxShadow: '0 0 15px rgba(255, 20, 157, 0.2)' }}
-              />
+        <div className="cards">
+          {tracks.map((track) => (
+            <article className="feature-card" key={track.title} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
-                <span className="date-pill" style={{ marginBottom: 12 }}>
-                  {r.year} Release
-                </span>
-                <h2 style={{ fontSize: 32, margin: '10px 0' }}>{r.title}</h2>
-                <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: 18, marginBottom: 20 }}>
-                  Featuring: {r.tracks.join(', ')}
-                </p>
-                <a className="button" href={r.url} target="_blank" rel="noopener noreferrer">
-                  Listen on SoundCloud
-                </a>
+                <h3 style={{ color: 'var(--yellow)', marginBottom: 12 }}>{track.title}</h3>
+                <p className="notes" style={{ fontSize: 16, marginBottom: 20 }}>{track.description}</p>
               </div>
+              <a className="button small" href={track.url} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'flex-start' }}>
+                {track.url.startsWith('/') ? 'Listen Now' : 'Listen on SoundCloud'}
+              </a>
             </article>
           ))}
         </div>
 
-        {tracks.length > 0 && (
-          <>
-            <h2 style={{ marginTop: 60 }}>More Recordings</h2>
-            <p className="lede" style={{ marginBottom: 30 }}>
-              Go to SoundCloud to check out our versions of some of your favorite AC/DC songs.
-            </p>
-            <div className="cards">
-              {tracks.map((track) => (
-                <article className="feature-card" key={track.title}>
-                  <h3>{track.title}</h3>
-                  <p className="notes">{track.description}</p>
-                  <a className="button small" href={track.url} target="_blank" rel="noopener noreferrer" style={{ marginTop: 16 }}>
-                    {track.url.startsWith('/') ? 'Listen Now' : 'Listen on SoundCloud'}
-                  </a>
-                </article>
-              ))}
-            </div>
-            {data.soundcloudPlaylist && (
-              <div className="actions" style={{ marginTop: 30 }}>
-                <a className="button" href={data.soundcloudPlaylist} target="_blank" rel="noopener noreferrer">
-                  Dirty Dudes Done Dirt Cheap — full playlist
-                </a>
-              </div>
-            )}
-          </>
+        {data.soundcloudPlaylist && (
+          <div className="actions" style={{ marginTop: 60, justifyContent: 'flex-start' }}>
+            <a className="button" href={data.soundcloudPlaylist} target="_blank" rel="noopener noreferrer">
+              Dirty Dudes Done Dirt Cheap — full playlist on SoundCloud
+            </a>
+          </div>
         )}
       </main>
       <Footer data={data} />

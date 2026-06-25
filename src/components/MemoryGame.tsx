@@ -120,8 +120,8 @@ const BEST_SCORE_KEY = (d: Difficulty) => `gaycdc:memory:best:${d}`;
 
 // --- The component ----------------------------------------------------------
 export default function MemoryGame() {
-  const [difficulty, setDifficulty] = useState<Difficulty>(5);
-  const [cards, setCards] = useState<Card[]>(() => buildDeck(5));
+  const [difficulty, setDifficulty] = useState<Difficulty>(6);
+  const [cards, setCards] = useState<Card[]>(() => buildDeck(6));
   const [flipped, setFlipped] = useState<number[]>([]);
   const [moves, setMoves] = useState(0);
   const [bestScore, setBestScore] = useState<number | null>(null);
@@ -529,6 +529,10 @@ export default function MemoryGame() {
       <div
         ref={boardRef}
         className={`mem-board mem-grid size-${difficulty * 2}`}
+        style={{
+          '--mem-cols': difficulty === 6 ? 4 : 5,
+          '--mem-rows': difficulty === 6 ? 3 : 2,
+        } as React.CSSProperties}
         // The match-pop counter is referenced so React keeps re-rendering on
         // each match (so the inline "MATCH!" element re-mounts and replays).
         data-pop={matchPop}
@@ -577,7 +581,6 @@ function CardView({
   onKeyDown: (e: React.KeyboardEvent) => void;
 }) {
   const [imgFailed, setImgFailed] = useState(false);
-  const [backFailed, setBackFailed] = useState(false);
 
   const showFront = card.isFlipped || card.isMatched;
 
@@ -606,24 +609,11 @@ function CardView({
       <span className="mem-card-inner">
         {/* BACK ----------------------------------------------------------- */}
         <span className="mem-card-face mem-card-back">
-          {!backFailed ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src="/images/card-back.png"
-              alt=""
-              onError={() => setBackFailed(true)}
-              draggable={false}
-            />
-          ) : (
-            <span className="mem-back-fallback" aria-hidden="true">
-              <span className="mem-back-bolt">⚡</span>
-              <span className="mem-back-text">
-                GAY<span className="mem-back-slash">/</span>C
-                <span className="mem-back-slash">/</span>DC
-              </span>
-              <span className="mem-back-bolt flip">⚡</span>
-            </span>
-          )}
+          <img
+            src="/images/lightning-boa-bg-removed.png"
+            alt=""
+            draggable={false}
+          />
         </span>
 
         {/* FRONT ---------------------------------------------------------- */}

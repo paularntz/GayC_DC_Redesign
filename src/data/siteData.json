@@ -20,7 +20,6 @@
   },
   "updates": [
     "We're getting ready for our 2026 Monsters of Cock tour!",
-    "The 2024 SMOKE EP is now available on SoundCloud featuring Smoke, Big Balls, and PNP!",
     "Redesigned site built around our official logo colors: high voltage hot pink, black, and rock 'n' roll yellow!"
   ],
   "bio": "GayC/DC: the world\u2019s first and only all-gay tribute to the music of AC/DC!\n\nFounded in 2013 by Chris Freeman (bass player from iconic queer punk band Pansy Division), the idea for GayC/DC came from bouncing around names for more tribute bands with gay members after he\u2019d been playing with the Gay Gay\u2019s (gay tribute to the Go Go\u2019s) for more than a decade. Once the Gay Gay\u2019s went on hiatus, Freeman moved forward with forming a band that could be as good as AC/DC.\n\nFreeman began by recruiting lightning-speed guitarist, Steve McKnight after meeting him online and sharing similar musical tastes. McKnight has been a part of the LA music scene since the late \u201880s in Cry Wolf, a melodic hard rock band that made their mark on the Sunset Strip and beyond with several major albums under their belt.\n\nAlso recruited was Karl Rumpf on rhythm guitar, who Freeman had met while on tour with Pansy Division and later worked with in a band/project called Dart. Rumpf was also in the last incarnation of the Gay Gay\u2019s (it was Karl who came up with the name GayC/DC), along with drummer Brian Welch who Freeman had also met while on tour. Welch had spent years touring with Extreme as their drum tech, so he was a natural fit.\n\nThis four-piece spent months looking for a gay vocalist to no avail. Finally, Freeman asked the others if _he_ should audition. Nervously, he did, the band agreed, and they were off\u2014but now they needed a bassist, so Freeman recruited bass player extraordinaire, Glen Pavan, once again someone Freeman had met while on tour.  In 2026, Nashville-based Paul Arntz has taken over on bass, and in 2025, Portland-based guitarist Topher Ruby took over on rhythm guitar duties.\n\nThe band remains true to the music (working diligently to replicate the actual sound of AC/DC), while playing around with the lyrics and changing pronouns to suit the gay angle. Hence, TNT becomes PNP (a song about the \u201cparty-n-play\u201d status some gay men post in their online sex ads), Bad Boy Boogie becomes Gay Boy Boogie (do you really need to ask?), and Big Balls needed \u2026 no changing at all!\n\nTo say the band is off-the-hook live is an understatement, even scoring a \u201cpick of the week\u201d in LA Weekly for a pre-COVID LA gig. The word of mouth has been intense and they are in-demand for live shows as clubs re-open. There is never a dull moment with all the costume changes and props being trotted out, all in the name of outrageous entertainment. Even those who say they don\u2019t like AC/DC end up being fans.\n\nWho can blame them? Go see for yourself!",
@@ -1005,19 +1004,6 @@
       "details": "Off Sunset Festival, Prince Again (H), Bitch Kiss, Boneyard, Erik Core, Thing of Twins"
     }
   ],
-  "recordings": [
-    {
-      "title": "Smoke EP",
-      "year": "2024",
-      "tracks": [
-        "Smoke",
-        "Big Balls",
-        "PNP"
-      ],
-      "url": "https://soundcloud.com/gaycdc/sets/smoke-ep",
-      "cover": "https://img1.wsimg.com/isteam/ip/0f6f3bde-e760-40b5-b66a-08d8f32b8882/GAYCDC_EP_Cover_Final_Web.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:800,cg:true"
-    }
-  ],
   "bioImage": {
     "url": "/images/gallery/026RET02.jpg",
     "credit": "Photo by Alex Solca"
@@ -1232,13 +1218,13 @@
     },
     {
       "title": "Big Balls",
-      "description": "Here's a link to Big Balls! Go to SoundCloud to check out our versions of some of your favorite AC/DC songs.",
-      "url": "https://soundcloud.com/chris-freeman-815714767/sets/dirty-dudes-done-dirt-cheap?si=e16e95ed01d34946aa1677eb8e81b634&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+      "description": "Our version of the AC/DC classic.",
+      "url": "/BigBalls.mp3"
     },
     {
       "title": "Touch Too Much",
-      "description": "Here's a link to Touch Too Much! Go to SoundCloud to check out our versions of some of your favorite AC/DC songs.",
-      "url": "https://soundcloud.com/chris-freeman-815714767/sets/dirty-dudes-done-dirt-cheap?si=e16e95ed01d34946aa1677eb8e81b634&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+      "description": "Our version of the AC/DC classic.",
+      "url": "/TouchTooMuch.mp3"
     },
     {
       "title": "Walk All Over Your Face",

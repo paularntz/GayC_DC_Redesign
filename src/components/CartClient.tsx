@@ -104,12 +104,15 @@ export function CartClient({ siteData }: CartClientProps) {
 
   // Save cart changes
   useEffect(() => {
-    if (cart.length > 0) {
-      try {
+    try {
+      if (cart.length > 0) {
         localStorage.setItem('gaycdc_cart', JSON.stringify(cart));
-      } catch (e) {
-        console.error('Failed to save cart', e);
+      } else {
+        localStorage.removeItem('gaycdc_cart');
       }
+      window.dispatchEvent(new Event('cartUpdated'));
+    } catch (e) {
+      console.error('Failed to save cart', e);
     }
   }, [cart]);
 
@@ -400,7 +403,6 @@ export function CartClient({ siteData }: CartClientProps) {
 
           // Empty cart
           setCart([]);
-          localStorage.removeItem('gaycdc_cart');
         } catch (error) {
           console.error('Capture error', error);
           alert('Failed to process payment. Please contact gaycdclola@gmail.com.');
@@ -425,21 +427,11 @@ export function CartClient({ siteData }: CartClientProps) {
       })
       .filter((item) => item.quantity > 0);
     setCart(updated);
-    if (updated.length === 0) {
-      localStorage.removeItem('gaycdc_cart');
-    } else {
-      localStorage.setItem('gaycdc_cart', JSON.stringify(updated));
-    }
   };
 
   const removeCartItem = (id: string) => {
     const updated = cart.filter((item) => item.id !== id);
     setCart(updated);
-    if (updated.length === 0) {
-      localStorage.removeItem('gaycdc_cart');
-    } else {
-      localStorage.setItem('gaycdc_cart', JSON.stringify(updated));
-    }
   };
 
   return (
@@ -491,6 +483,7 @@ export function CartClient({ siteData }: CartClientProps) {
           width: 80px;
           height: 80px;
           object-fit: cover;
+          object-position: top;
           border: 2px solid var(--pink);
           border-radius: 6px;
         }

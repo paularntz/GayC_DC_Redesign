@@ -72,7 +72,6 @@ function buildContent() {
   const pressMd = readScrape('press.md');
   const photosMd = readScrape('photo-gallery.md');
   const merchMd = readScrape('merchandise.md');
-  const recordingsMd = readScrape('recordings.md');
   const contactMd = readScrape('contact.md');
   const bioMd = readScrape('bio.md');
 
@@ -156,11 +155,29 @@ function buildContent() {
   const dirtyDudesUrl =
     'https://soundcloud.com/chris-freeman-815714767/sets/dirty-dudes-done-dirt-cheap?si=e16e95ed01d34946aa1677eb8e81b634&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
 
-  const trackRecordings = ['PNP', 'Big Balls', 'Touch Too Much'].map((title) => ({
+  const trackRecordings = ['PNP'].map((title) => ({
     title,
     description: `Here's a link to ${title}! Go to SoundCloud to check out our versions of some of your favorite AC/DC songs.`,
     url: dirtyDudesUrl,
   }));
+
+  trackRecordings.push({
+    title: 'Big Balls',
+    description: 'Our version of the AC/DC classic.',
+    url: '/BigBalls.mp3',
+  });
+
+  trackRecordings.push({
+    title: 'Touch Too Much',
+    description: 'Our version of the AC/DC classic.',
+    url: '/TouchTooMuch.mp3',
+  });
+
+  trackRecordings.push({
+    title: 'Walk All Over Your Face',
+    description: "Also known as 'Cum'. Our version of the AC/DC classic.",
+    url: '/WalkAllOverYourFace.mp3',
+  });
 
   const bioText = extractBioParagraphs(bioMd);
   const bioImageUrl = `${IMG_BASE}/026RET02.jpg/:/cr=t:0%25,l:5.66%25,w:88.68%25,h:100%25/rs=w:600,h:450,cg:true`;

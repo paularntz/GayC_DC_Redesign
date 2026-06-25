@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Footer } from '@/components/Footer';
 import { ShowCard } from '@/components/ShowCard';
+import { Hero } from '@/components/Hero';
 import { getSiteData } from '@/lib/data';
 
 export const dynamic = 'force-dynamic';
@@ -10,25 +11,7 @@ export default async function Home() {
   return (
     <>
       <main>
-        <section className="hero">
-          <div>
-            <p className="eyebrow">{data.hero.eyebrow}</p>
-            <h1>{data.hero.headline}</h1>
-            <p className="lede">{data.hero.body}</p>
-            <div className="actions">
-              <Link className="button" href="/shows">
-                {data.hero.primaryCta}
-              </Link>
-              <Link className="button ghost" href="/contact">
-                {data.hero.secondaryCta}
-              </Link>
-            </div>
-          </div>
-          <div className="hero-art">
-            <img src={data.brand.logoUrl} alt="GayC/DC official logo" />
-            <div className="bolt">⚡</div>
-          </div>
-        </section>
+        <Hero data={data.hero} />
 
         <section className="section pink-panel" style={{ margin: '0 6vw' }}>
           <h2>Next Shows</h2>

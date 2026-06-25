@@ -93,12 +93,15 @@ export function MerchandiseStore({ merch }: MerchandiseStoreProps) {
 
   // Save cart to localStorage
   useEffect(() => {
-    if (cart.length > 0) {
-      try {
+    try {
+      if (cart.length > 0) {
         localStorage.setItem('gaycdc_cart', JSON.stringify(cart));
-      } catch (e) {
-        console.error('Failed to save cart', e);
+      } else {
+        localStorage.removeItem('gaycdc_cart');
       }
+      window.dispatchEvent(new Event('cartUpdated'));
+    } catch (e) {
+      console.error('Failed to save cart', e);
     }
   }, [cart]);
 
@@ -139,11 +142,6 @@ export function MerchandiseStore({ merch }: MerchandiseStoreProps) {
     }
 
     setCart(updatedCart);
-    try {
-      localStorage.setItem('gaycdc_cart', JSON.stringify(updatedCart));
-    } catch (e) {
-      console.error('Failed to save cart', e);
-    }
 
     // Reset local state selection quantity but keep size/style for ease
     setItemSelections({
@@ -218,41 +216,6 @@ export function MerchandiseStore({ merch }: MerchandiseStoreProps) {
           font-family: system-ui, sans-serif;
           font-size: 14px;
           width: 100%;
-        }
-        .floating-cart-btn {
-          position: fixed;
-          bottom: 30px;
-          right: 30px;
-          background: var(--pink);
-          color: white;
-          border: 3px solid var(--yellow);
-          border-radius: 50px;
-          width: 70px;
-          height: 70px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          cursor: pointer;
-          box-shadow: 0 0 20px var(--pink);
-          z-index: 999;
-          transition: transform 0.2s;
-          text-decoration: none;
-        }
-        .floating-cart-btn:hover {
-          transform: scale(1.1);
-          box-shadow: 0 0 30px var(--pink), 0 0 10px var(--yellow);
-        }
-        .cart-badge {
-          position: absolute;
-          top: -5px;
-          right: -5px;
-          background: var(--yellow);
-          color: var(--black);
-          font-size: 14px;
-          font-weight: 950;
-          padding: 3px 8px;
-          border-radius: 50%;
-          border: 2px solid var(--pink);
         }
 
         /* Lightbox and confetti animations */
@@ -356,6 +319,7 @@ export function MerchandiseStore({ merch }: MerchandiseStoreProps) {
           width: 80px;
           height: 80px;
           object-fit: cover;
+          object-position: top;
           border: 3px solid var(--pink);
           border-radius: 8px;
           box-shadow: 0 0 15px rgba(255, 20, 157, 0.4);
@@ -466,14 +430,6 @@ export function MerchandiseStore({ merch }: MerchandiseStoreProps) {
           box-shadow: 0 0 25px rgba(255, 20, 157, 0.7);
         }
       `}</style>
-
-      {/* Floating cart button redirects to the dedicated /cart page */}
-      <Link href="/cart" className="floating-cart-btn" aria-label="View Shopping Cart">
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-        </svg>
-        {totalCartItems > 0 && <span className="cart-badge">{totalCartItems}</span>}
-      </Link>
 
       <main className="section store-container">
         <p className="eyebrow">Merchandise</p>

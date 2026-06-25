@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Nav } from '@/components/Nav';
+import { FloatingCart } from '@/components/FloatingCart';
 
 export const metadata: Metadata = {
   title: 'GayC/DC official — high voltage queer rock',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="site-wrapper">
           <Nav />
           <div className="content-wrapper">{children}</div>
+          <FloatingCart />
         </div>
       </body>
     </html>

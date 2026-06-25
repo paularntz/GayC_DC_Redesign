@@ -164,7 +164,7 @@ export function SetlistPlayer({ setlist, allSetlists = [] }: SetlistPlayerProps)
   const pendingSeekRef = useRef<number>(0);
   const pitchCentsRef = useRef<number>(0);
   const currentTrack = tracks[currentIndex] || null;
-  const pitchSettingsEndpoint = `/api/setlists/${encodeURIComponent(setlist.slug)}/pitch`;
+  const pitchSettingsEndpoint = `/api/sessions/${encodeURIComponent(setlist.slug)}/pitch`;
   const currentTrackPitchKey = getTrackPitchKey(currentTrack, currentIndex);
   const currentPitchCents = clampPitchCents(pitchByTrack[currentTrackPitchKey] || 0);
   const currentPlaybackRate = getPitchPlaybackRate(currentPitchCents);
@@ -678,9 +678,9 @@ export function SetlistPlayer({ setlist, allSetlists = [] }: SetlistPlayerProps)
     <section className="setlist-player" style={cssVars}>
       {otherSetlists.length > 0 && (
         <nav className="setlist-player__nav">
-          <span className="setlist-player__nav-label">Other setlists:</span>
+          <span className="setlist-player__nav-label">Other sessions:</span>
           {otherSetlists.map((s) => (
-            <a key={s.slug} href={`/setlists/${s.slug}`}>
+            <a key={s.slug} href={`/sessions/${s.slug}`}>
               {s.title}
             </a>
           ))}

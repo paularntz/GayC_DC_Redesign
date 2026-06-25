@@ -34,8 +34,7 @@ export const gaycdcPracticeSetlist: Setlist = {
     {
       code: 'BALLS',
       title: 'Big Balls',
-      audioUrl:
-        'https://www.dropbox.com/scl/fi/f0x49dc8pg6yte7i9ltlb/Big-Balls.mp3?rlkey=0wln7gwuh8fdecj5kd75fq9bf&dl=0&raw=1',
+      audioUrl: '/BigBalls.mp3',
     },
     {
       code: 'DEEDS',
@@ -109,8 +108,7 @@ export const gaycdcPracticeSetlist: Setlist = {
     {
       code: 'TOUCH',
       title: 'Touch Too Much',
-      audioUrl:
-        'https://www.dropbox.com/scl/fi/czmnses6yj7nlkqe1fkc2/Touch-Too-Much.mp3?rlkey=nuwccsozmufiokzkzr7oozofx&dl=0&raw=1',
+      audioUrl: '/TouchTooMuch.mp3',
     },
     {
       code: 'FLAMES',

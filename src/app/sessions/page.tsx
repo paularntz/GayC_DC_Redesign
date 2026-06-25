@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { listSetlists } from '@/data/setlists';
 
 export const metadata = {
-  title: 'Setlists | GayC/DC',
-  description: 'Setlists and rehearsal players for GayC/DC.',
+  title: 'Sessions | GayC/DC',
+  description: 'Rehearsal players for GayC/DC.',
 };
 
 export default function SetlistsIndexPage() {
@@ -59,7 +59,7 @@ export default function SetlistsIndexPage() {
         {setlists.map((setlist) => (
           <Link
             key={setlist.slug}
-            href={`/setlists/${setlist.slug}`}
+            href={`/sessions/${setlist.slug}`}
             style={{
               display: 'block',
               padding: '1.15rem 1.3rem',
